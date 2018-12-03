@@ -1,0 +1,4 @@
+ADD docker/prodtartt.sql /tmp/dump.sql
+ADD docker/init_db.sh /tmp/init_db.sh
+RUN /tmp/init_db.sh
+
